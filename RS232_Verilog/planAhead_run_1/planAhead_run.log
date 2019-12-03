@@ -1,0 +1,132 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/pa.fromNetlist.tcl}
+# create_project -name RS232_Verilog -dir "C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/planAhead_run_1" -part xc3s500efg320-5
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/TopLevel.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "TopLevel.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/TopLevel.ucf' to fileset 'constrs_1'
+# add_files [list {TopLevel.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-5
+Release 14.5 - ngc2edif P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design TopLevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to TopLevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file TopLevel.edif ...
+ngc2edif: Total memory usage is 4318164 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/RS232_Verilog.data/cache/TopLevel_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/RS232_Verilog.data/cache/TopLevel_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library E:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [E:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [E:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : E:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library E:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/TopLevel.ucf]
+Finished Parsing UCF File [C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/TopLevel.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: b305bda1
+link_design: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 565.266 ; gain = 128.715
+startgroup
+set_property package_pin F15 [get_ports {An[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {An[1]}]]
+startgroup
+set_property package_pin C18 [get_ports {An[2]}]
+endgroup
+startgroup
+set_property package_pin H17 [get_ports {An[1]}]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports {An[0]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {DataIn[7]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {DataIn[6]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {DataIn[5]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {DataIn[4]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {DataIn[3]}]
+endgroup
+startgroup
+set_property package_pin K18 [get_ports {DataIn[2]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {DataIn[1]}]
+endgroup
+startgroup
+set_property package_pin G18 [get_ports {DataIn[0]}]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports Ca]
+endgroup
+startgroup
+set_property package_pin F18 [get_ports Cb]
+endgroup
+set_property package_pin "" [get_ports [list  Ce]]
+set_property package_pin "" [get_ports [list  Cd]]
+startgroup
+set_property package_pin D16 [get_ports Cd]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports Ce]
+endgroup
+startgroup
+set_property package_pin J17 [get_ports Cf]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports Cg]
+endgroup
+startgroup
+set_property package_pin B18 [get_ports Reset]
+endgroup
+startgroup
+set_property package_pin U6 [get_ports Rxd]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports Send]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports SystemClock]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports Txd]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Dec 03 23:39:11 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

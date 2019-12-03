@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Tue Dec 03 23:39:26 2019
+# Process ID: 12680
+# Log file: C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin D17 [get_ports Cc]
+endgroup
+save_constraints
