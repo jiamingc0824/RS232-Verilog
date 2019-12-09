@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jia Ming/Desktop/RS232 Coursework/RS232 Verilog/RS232_Verilog
+vRS232Txd
+!s110 1575730206
+!i10b 1
+!s100 kbC7``a6Q[hIk67Y>M@:33
+I[[C^DF?8b[@SP3[UXlkIF2
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1575385676
+8RS232Txd.v
+FRS232Txd.v
+L0 3
+OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1575730206.000000
+!s107 RS232Txd.v|
+!s90 -reportprogress|300|RS232Txd.v|
+!s101 -O0
+!i113 1
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@r@s232@txd

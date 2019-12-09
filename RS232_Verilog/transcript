@@ -1,0 +1,26 @@
+# Reading E:/Program Files (x86)/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# do {tb_RS232Txd.fdo}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:50:06 on Dec 07,2019
+# vlog -reportprogress 300 RS232Txd.v 
+# -- Compiling module RS232Txd
+# 
+# Top level modules:
+# 	RS232Txd
+# End time: 22:50:06 on Dec 07,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 22:50:06 on Dec 07,2019
+# vlog -reportprogress 300 tb_RS232Txd.v 
+# -- Compiling module tb_RS232Txd
+# ** Error: tb_RS232Txd.v(24): (vlog-2730) Undefined variable: 'clock'.
+# 
+# ** Error: (vlog-13069) tb_RS232Txd.v(26): near "initial": syntax error, unexpected initial.
+# 
+# End time: 22:50:06 on Dec 07,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: E:/Program Files (x86)/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./tb_RS232Txd.fdo line 24
+# E:/Program Files (x86)/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog  "tb_RS232Txd.v""
